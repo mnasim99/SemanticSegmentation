@@ -4,7 +4,8 @@ Ive used UNET with efficientnet and mobilenet bases. UNET is an encoder decoder 
 Pretrained weights of imagenet were loaded in EfficientNetB0 block. This was used as an encoder. The decoder block was made using deconvolution layers for  resizing map to original size.
 Pretrained weights of imagenet were loaded in MobileNetV2 block. This was used as an encoder. The decoder block was made using deconvolution layers for  resizing map to original size.
 
- 
+ <img width="442" alt="architecture" src="https://github.com/mnasim99/SemanticSegmentation/assets/57056774/44e733ce-ae76-4f43-a4db-c46b447304cd">
+
   
   # 2. Instructions for installations
  If you are using google colab than install tensorflow and its packages.
